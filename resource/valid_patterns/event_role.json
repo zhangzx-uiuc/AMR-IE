@@ -1,0 +1,168 @@
+{
+  "Movement:Transport": [
+    "Vehicle",
+    "Artifact",
+    "Agent",
+    "Origin",
+    "Destination"
+  ],
+  "Personnel:Elect": [
+    "Place",
+    "Person",
+    "Entity"
+  ],
+  "Personnel:Start-Position": [
+    "Place",
+    "Person",
+    "Entity"
+  ],
+  "Personnel:Nominate": [
+    "Agent",
+    "Person"
+  ],
+  "Personnel:End-Position": [
+    "Place",
+    "Person",
+    "Entity"
+  ],
+  "Conflict:Attack": [
+    "Target",
+    "Place",
+    "Victim",
+    "Instrument",
+    "Attacker"
+  ],
+  "Contact:Meet": [
+    "Place",
+    "Entity"
+  ],
+  "Life:Marry": [
+    "Place",
+    "Person"
+  ],
+  "Transaction:Transfer-Money": [
+    "Giver",
+    "Place",
+    "Recipient",
+    "Beneficiary"
+  ],
+  "Conflict:Demonstrate": [
+    "Place",
+    "Entity"
+  ],
+  "Business:End-Org": [
+    "Place",
+    "Org"
+  ],
+  "Justice:Sue": [
+    "Defendant",
+    "Plaintiff",
+    "Adjudicator",
+    "Place"
+  ],
+  "Life:Injure": [
+    "Agent",
+    "Place",
+    "Victim",
+    "Instrument"
+  ],
+  "Life:Die": [
+    "Person",
+    "Agent",
+    "Place",
+    "Victim",
+    "Instrument"
+  ],
+  "Justice:Arrest-Jail": [
+    "Agent",
+    "Place",
+    "Person"
+  ],
+  "Contact:Phone-Write": [
+    "Place",
+    "Entity"
+  ],
+  "Transaction:Transfer-Ownership": [
+    "Artifact",
+    "Beneficiary",
+    "Buyer",
+    "Place",
+    "Seller"
+  ],
+  "Business:Start-Org": [
+    "Agent",
+    "Place",
+    "Org"
+  ],
+  "Justice:Execute": [
+    "Agent",
+    "Place",
+    "Person"
+  ],
+  "Justice:Trial-Hearing": [
+    "Prosecutor",
+    "Defendant",
+    "Place",
+    "Adjudicator"
+  ],
+  "Life:Be-Born": [
+    "Place",
+    "Person"
+  ],
+  "Justice:Charge-Indict": [
+    "Prosecutor",
+    "Adjudicator",
+    "Place",
+    "Defendant"
+  ],
+  "Justice:Convict": [
+    "Defendant",
+    "Place",
+    "Adjudicator"
+  ],
+  "Justice:Sentence": [
+    "Adjudicator",
+    "Place",
+    "Defendant"
+  ],
+  "Business:Declare-Bankruptcy": [
+    "Place",
+    "Org"
+  ],
+  "Justice:Release-Parole": [
+    "Place",
+    "Person",
+    "Entity"
+  ],
+  "Justice:Fine": [
+    "Adjudicator",
+    "Place",
+    "Entity"
+  ],
+  "Justice:Pardon": [
+    "Adjudicator",
+    "Place",
+    "Defendant"
+  ],
+  "Justice:Appeal": [
+    "Adjudicator",
+    "Plaintiff",
+    "Place"
+  ],
+  "Justice:Extradite": [
+    "Agent",
+    "Origin",
+    "Destination"
+  ],
+  "Life:Divorce": [
+    "Place",
+    "Person"
+  ],
+  "Business:Merge-Org": [
+    "Org"
+  ],
+  "Justice:Acquit": [
+    "Defendant",
+    "Adjudicator"
+  ]
+}
