@@ -11,7 +11,7 @@ The core python dependencies for this code are as follows:
 
 `torch==1.6.0`, `torch-scatter==2.0.6`, `transformers==4.3.0`, `dgl==0.6.0`.
 
-For other dependencies, you can simply use `pip install` to install the package according to the error messages.
+For other dependencies, you can simply use `pip install` to install the required packages that are indicated by the error messages.
 
 ## Datasets
 ### ACE-2005 and ERE
