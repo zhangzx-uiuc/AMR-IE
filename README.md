@@ -6,6 +6,10 @@ We use the transformer-based AMR parser [(Astudillo et al. 2020)](https://www.ac
 
 The code of the AMR parser is derived from the original [Github Repo](https://github.com/IBM/transition-amr-parser). We made some slight modifications to fit it in higher versions of PyTorch. 
 
+## Environments
+The core python dependencies for this code are as follows:
+torch==1.6.0, torch-scatter==2.0.6, transformers==4.3.0, dgl==0.6.0
+
 ## Datasets
 ### ACE-2005 and ERE
 The ACE-2005 and ERE datasets are only available at the [LDC website](https://catalog.ldc.upenn.edu/LDC2006T06). Please use the following steps for preprocessing and AMR parsing.
