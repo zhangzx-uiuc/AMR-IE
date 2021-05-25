@@ -8,7 +8,8 @@ The code of the AMR parser is derived from the original [Github Repo](https://gi
 
 ## Environments
 The core python dependencies for this code are as follows:
-torch==1.6.0, torch-scatter==2.0.6, transformers==4.3.0, dgl==0.6.0
+
+`torch==1.6.0`, `torch-scatter==2.0.6`, `transformers==4.3.0`, `dgl==0.6.0`.
 
 ## Datasets
 ### ACE-2005 and ERE
