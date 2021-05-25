@@ -9,3 +9,17 @@ The preprocessed GENIA 2011 and 2013 datasets for joint information extraction a
 
 ## Train the model
 `python train.py -c config/genia_2011.json -g 0 -n NAME`
+
+## Acknowledgement
+If you have any problems on this code, feel free to contact zhangzx369@gmail.com.
+If you use this code as part of your research, please cite the following paper:
+```
+@inproceedings{amrie2021,
+  author    = {Zixuan Zhang and Heng Ji},
+  title     = {Abstract Meaning Representation Guided Graph Encoding and Decodingfor Joint Information Extraction},
+  booktitle = {Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)},
+  year      = {2021},
+  pages     = {39--49},
+  url       = {https://www.aclweb.org/anthology/2021.naacl-main.4/}
+  }
+```
