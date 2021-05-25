@@ -10,6 +10,7 @@ The code of the AMR parser is derived from the original [Github Repo](https://gi
 ### ACE-2005 and ERE
 The ACE-2005 and ERE datasets are available at the [LDC website](https://catalog.ldc.upenn.edu/LDC2006T06). Please use the following steps for preprocessing and AMR parsing.
 + Use the scripts in [OneIE](http://blender.cs.illinois.edu/software/oneie/) to obtain the data files `train.oneie.json`, `dev.oneie.json`, and `test.oneie.json` for the OneIE model.
++ 
 
 ### GENIA 2011 and 2013
 We release the preprocessed data for GENIA 2011 and 2013 along with the AMR graphs for each sentence at [this link](https://drive.google.com/file/d/1tnGyyJo7Enesqv8R1Mpng7c1U5lEzLqm/view?usp=sharing). Please unzip the file and put all the folders into `./data/` before training the models. 
