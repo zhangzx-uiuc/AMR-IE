@@ -20,7 +20,7 @@ The ACE-2005 and ERE datasets are only available at the [LDC website](https://ca
 + Use `data/transform_for_amrie.py` to transform the OneIE formatted data files to fit in our model. For example: `python ./data/transform_for_amrie.py -i [INPUT_DATA_DIR] -o [OUTPUT_DATA_DIR]`.
 + Use `./process_amr.py` to conduct AMR parsing and generate the `.pkl` files for training the model.
 
-After preprocessing, each dataset split should contain a `.json` file (containing the IE annotations) and a `.pkl` file (containing AMR information). For example, for the training set of ACE-2005, we have `train.oneie.json` and `train_graphs.pkl`. You can also refer to the publicly available [GENIA datasets](https://drive.google.com/file/d/1tnGyyJo7Enesqv8R1Mpng7c1U5lEzLqm/view?usp=sharing) for more detailed dataset formats.
+After preprocessing, each dataset split should contain a `.json` file (containing the IE annotations) and a `.pkl` file (containing AMR information). For example, for the training set of ACE-2005, we have `train.oneie.json` and `train_graphs.pkl`. You can also refer to the publicly available [GENIA datasets](https://drive.google.com/file/d/1tnGyyJo7Enesqv8R1Mpng7c1U5lEzLqm/view?usp=sharing) for more detailed dataset formats in our model.
 
 ### GENIA 2011 and 2013
 We release the preprocessed data for GENIA 2011 and 2013 along with the AMR graphs for each sentence at [this link](https://drive.google.com/file/d/1tnGyyJo7Enesqv8R1Mpng7c1U5lEzLqm/view?usp=sharing). Please unzip the file and put all the folders into `./data/` before training the models. 
