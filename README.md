@@ -11,6 +11,8 @@ The core python dependencies for this code are as follows:
 
 `torch==1.6.0`, `torch-scatter==2.0.6`, `transformers==4.3.0`, `dgl==0.6.0`.
 
+For other dependencies, you can simply use `pip install` to install the package indicated from the error message.
+
 ## Datasets
 ### ACE-2005 and ERE
 The ACE-2005 and ERE datasets are only available at the [LDC website](https://catalog.ldc.upenn.edu/LDC2006T06). Please use the following steps for preprocessing and AMR parsing.
