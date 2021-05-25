@@ -7,10 +7,10 @@ We use the transformer-based AMR parser [(Astudillo et al. 2020)](https://www.ac
 The code of the AMR parser is derived from the original [Github Repo](https://github.com/IBM/transition-amr-parser). We made some slight modifications to fit it in higher versions of PyTorch. 
 
 ## Datasets
-#### ACE-2005 and ERE
+### ACE-2005 and ERE
 The ACE2005 and ERE datasets are available at the [LDC website](https://catalog.ldc.upenn.edu/LDC2006T06). Please use the following script to preprocessing these datasets.
 
-#### GENIA 2011 and 2013
+### GENIA 2011 and 2013
 We release the preprocessed data for GENIA 2011 and 2013 along with the AMR graphs for each sentence at [this link](https://drive.google.com/file/d/1tnGyyJo7Enesqv8R1Mpng7c1U5lEzLqm/view?usp=sharing). Please unzip the file and put all the folders into `./data/` before training the models. 
 
 ## Train the model
