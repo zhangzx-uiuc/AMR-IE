@@ -11,7 +11,7 @@ The preprocessed GENIA 2011 and 2013 datasets for joint information extraction a
 `python train.py -c config/genia_2011.json -g 0 -n NAME`
 
 ## Acknowledgement
-If you have any problems on this code, feel free to contact zhangzx369@gmail.com.
+Please contact zixuan11@illinois.edu if you have any questions.
 If you use this code as part of your research, please cite the following paper:
 ```
 @inproceedings{amrie2021,
