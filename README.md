@@ -8,7 +8,7 @@ The code of the AMR parser is derived from the original [Github Repo](https://gi
 
 ## Datasets
 ### ACE-2005 and ERE
-The ACE-2005 and ERE datasets are available at the [LDC website](https://catalog.ldc.upenn.edu/LDC2006T06). Please use the following steps for preprocessing and AMR parsing.
+The ACE-2005 and ERE datasets are only available at the [LDC website](https://catalog.ldc.upenn.edu/LDC2006T06). Please use the following steps for preprocessing and AMR parsing.
 + Use the scripts in [OneIE](http://blender.cs.illinois.edu/software/oneie/) to obtain the data files `train.oneie.json`, `dev.oneie.json`, and `test.oneie.json` for the OneIE model.
 + Use `data/transform_for_amrie.py` to transform the OneIE formatted data files to fit in our model. For example: `python ./data/transform_for_amrie.py -i [INPUT_DATA_DIR] -o [OUTPUT_DATA_DIR]`.
 + Use `./process_amr.py` to conduct AMR parsing and generate the `.pkl` files for training the model.
