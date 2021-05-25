@@ -25,8 +25,12 @@ After preprocessing, each dataset split should contain a `.json` file (containin
 ### GENIA 2011 and 2013
 We release the preprocessed data for GENIA 2011 and 2013 along with the AMR graphs for each sentence at [this link](https://drive.google.com/file/d/1tnGyyJo7Enesqv8R1Mpng7c1U5lEzLqm/view?usp=sharing). Please unzip the file and put all the folders into `./data/` before training the models. 
 
-## Train the model
-`python train.py -c config/genia_2011.json -g 0 -n NAME`
+## Training
+To train a model, you can run `python train.py -c [CONFIG_FILE] -g [GPU_ID] -n [NAME_OF_THIS_RUN]`. The example config files are provided in `./config/`. For example, to train a model on GENIA 2011 joint IE dataset, you can run:
+
+`python train.py -c config/genia_2011.json -g 0 -n your_preferred_name`
+
+The average training time for a single model would be ~15 hours on Tesla V100 GPUs, with ~10GB usage of GPU memory.
 
 ## Acknowledgement
 Our great thanks to [Lin et al.](https://www.aclweb.org/anthology/2020.acl-main.713/) and [Astudillo et al.](https://www.aclweb.org/anthology/2020.findings-emnlp.89/) for publicizing their codes for OneIE and the AMR parser!
