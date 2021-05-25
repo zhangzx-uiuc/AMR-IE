@@ -10,7 +10,7 @@ The preprocessed GENIA 2011 and 2013 datasets for joint information extraction a
 `python train.py -c config/genia_2011.json -g 0 -n NAME`
 
 ## Acknowledgement
-Our great thanks to Lin et al. and Astudillo et al. for publicizing their codes for OneIE and the AMR parser!
+Our great thanks to [Lin et al.](https://www.aclweb.org/anthology/2020.acl-main.713/) and [Astudillo et al.](https://www.aclweb.org/anthology/2020.findings-emnlp.89/) for publicizing their codes for OneIE and the AMR parser!
 Please contact zixuan11@illinois.edu if you have any questions.
 If you use this code as part of your research, please cite the following paper:
 ```
