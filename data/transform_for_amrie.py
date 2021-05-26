@@ -134,7 +134,6 @@ if __name__ == "__main__":
     parser.add_argument('-o', '--output', default='./data/ere_amrie/test.oneie.json')
     parser.add_argument('-i', '--input', default='./data/ere_oneie/test.oneie.json')
     args = parser.parse_args()
-
     transform_dataset(args.input, args.output, t)
 
     
