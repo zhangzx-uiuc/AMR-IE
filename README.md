@@ -1,5 +1,5 @@
 # AMR-IE
-The code repository for [AMR guided joint information extraction model](https://www.aclweb.org/anthology/2021.naacl-main.4/) (NAACL 2021). 
+The code repository for [AMR guided joint information extraction model](https://www.aclweb.org/anthology/2021.naacl-main.4/) (NAACL-HLT 2021). 
 
 ## AMR Parser
 We use the transformer-based AMR parser [(Astudillo et al. 2020)](https://www.aclweb.org/anthology/2020.findings-emnlp.89/) in our model. We train the AMR parser on LDC AMR 3.0 data, and the [code](https://drive.google.com/file/d/1SB36NyEaRd740rGTjD_8ga7l5NGeRlkR/) and the [pretrained model](https://drive.google.com/file/d/1LRJuOwHQ6EWmzRBpYpWwsr_5m2kO-IP7) are publicly available. Please follow the README file in the code directory to install and use it.
