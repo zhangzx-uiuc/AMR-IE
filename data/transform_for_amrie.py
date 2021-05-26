@@ -23,7 +23,7 @@ def span_to_offset(offset_list, start, end):
     end_offset = offset_list[end - 1][1]
     return start_offset, end_offset
 
-def transform_for_roberta(data_dict, tokenizer):
+def transform_for_amrie(data_dict, tokenizer):
     new_data_dict = data_dict.copy()
 
     tokens = data_dict["tokens"]
@@ -120,7 +120,7 @@ def transform_dataset(data_dir, output_dir, tokenizer):
                 line = f.readline()
                 if line != "":
                     data_dict = json.loads(line)
-                    output_dict = transform_for_roberta(data_dict, tokenizer)
+                    output_dict = transform_for_amrie(data_dict, tokenizer)
                     output_line = json.dumps(output_dict) + '\n'
                     f1.write(output_line)
                 else:
