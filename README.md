@@ -33,7 +33,7 @@ To train a model, you can run `python train.py -c [CONFIG_FILE] -g [GPU_ID] -n [
 The average training time for a single model would be ~15 hours on Tesla V100 GPUs, with ~10GB usage of GPU memory.
 
 ## Acknowledgement
-Our great thanks to [Lin et al.](https://www.aclweb.org/anthology/2020.acl-main.713/) and [Astudillo et al.](https://www.aclweb.org/anthology/2020.findings-emnlp.89/) for publicizing their codes for the OneIE model and the AMR parser!
+This code is largely derived from [OneIE](http://blender.cs.illinois.edu/software/oneie/). Our great thanks to [Lin et al.](https://www.aclweb.org/anthology/2020.acl-main.713/) and [Astudillo et al.](https://www.aclweb.org/anthology/2020.findings-emnlp.89/) for publicizing their codes for the OneIE model and the AMR parser!
 
 Please contact zixuan11@illinois.edu if you have any questions.
 If you use this code as part of your research, please cite the following paper:
