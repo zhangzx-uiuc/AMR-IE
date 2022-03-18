@@ -32,6 +32,16 @@ To train a model, you can run `python train.py -c [CONFIG_FILE] -g [GPU_ID] -n [
 
 The average training time for a single model would be ~15 hours on Tesla V100 GPUs, with ~10GB usage of GPU memory.
 
+## Pre-Trained Models and Testing
+To make it easier to reproduce our results, we also released our trained model checkpoints on ACE-05E dataset at: xxx. Please download the model and run the following command to for testing:
+```
+python test.py -c [YOUR_CONFIG_FILE] -g [GPU_DEVICE_ID] --model_path [MODEL_CHECKPOINT_PATH]
+```
+We also share our config files for ACE-05E under the `config` folder. If the pretrained model is stored in `./models/best.role.mdl`, then an example for running the test script is:
+```
+python test.py -c config/ace05.json -g 0 --model_path models/best.role.mdl
+```
+
 ## Acknowledgement
 This code is largely derived from [OneIE](http://blender.cs.illinois.edu/software/oneie/). Our great thanks to [Lin et al.](https://www.aclweb.org/anthology/2020.acl-main.713/) and [Astudillo et al.](https://www.aclweb.org/anthology/2020.findings-emnlp.89/) for publicizing their codes for the OneIE model and the AMR parser!
 
