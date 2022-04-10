@@ -33,7 +33,7 @@ To train a model, you can run `python train.py -c [CONFIG_FILE] -g [GPU_ID] -n [
 The average training time for a single model would be ~15 hours on Tesla V100 GPUs, with ~10GB usage of GPU memory.
 
 ## Pre-Trained Models and Testing
-To make it easier to reproduce our results, **we released our trained model checkpoints on ACE-05E dataset** [here](https://drive.google.com/file/d/1BFGQOT9dxphmrolWqe-SunXXWr4awthg/view?usp=sharing).  Please download the model and run the following command to for testing:
+To make it easier to reproduce our results, **we released our trained model checkpoints on ACE-05E dataset** [here](https://drive.google.com/file/d/1WVC10jBJU3bv2Tl5mZxrlZ4TuCOPEltt/view?usp=sharing).  Please download the model and run the following command to for testing:
 ```
 python test.py -c [YOUR_CONFIG_FILE] -g [GPU_DEVICE_ID] --model_path [MODEL_CHECKPOINT_PATH]
 ```
